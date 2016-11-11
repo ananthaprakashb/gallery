@@ -7,165 +7,49 @@
     <meta name="description" content="Gallery : ">
     <title>Gallery</title>
     <style>
-        body{
+        body {
             background: #4e6b1e;
             color: #fff;
         }
+
         .wrapper {
             max-width: 70%;
             margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
         }
 
-        div.img {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
+        .wrapper > * {
+            flex: auto;
             width: 30%;
         }
 
-        div.img:hover {
-            border: 1px solid #777;
+        .wrapper img {
+            width: 30%;
+            height: 30%;
+            margin: 10px;
         }
 
-        div.img img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.desc {
-            padding: 5px 0 0 10px;
-            font-size: 80%;
-            display:none;
-        }
     </style>
 </head>
 <body>
 <div class="wrapper">
-    <div class="img">
-        <a target="_blank" href="images/Scan0001.jpg">
-            <img src="images/Scan0001.jpg" alt="butterfly with flower" width="400" height="300">
-        </a>
-        <div class="desc">
-            <pre>
-படபடக்கும் சிறகுகள்
-மேலும் கீழுமாய்
-கோலமிடும்.
-
-உடன் நகரும் கார்னியா
-பிதுங்கும் நுனியில்
-மிக அருகாமையில்
-சடக்கென கடந்து போகும் -
-வண்ணத்துப்பூச்சி
-உள்ளெழுப்பும்
-அதே உணர்வுகளைத் தான்
-ஒவ்வொரு முறையும்
-எழுப்பிவிட்டு போகின்றன
-உன்னை பற்றியதான நினைவுகள்!!
-            </pre>
-        </div>
-    </div>
-    <div class="img">
-        <a target="_blank" href="images/Scan0003.jpg">
-            <img src="images/Scan0003.jpg" alt="Natural scenary with Lights" width="400" height="300">
-        </a>
-        <div class="desc"><pre>
-இனிமையில் நனைகையில்
-முழுதுமாய் உணர்வோம்!
-துயரிலோ -
-பேரினிமை நோக்கியே
-விழைவோம்!!
-        </pre></div>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0004.jpg">
-            <img src="images/Scan0004.jpg" alt="Mountains" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0005.jpg">
-            <img src="images/Scan0005.jpg" alt="Mountains" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0013.jpg">
-            <img src="images/Scan0013.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0014.jpg">
-            <img src="images/Scan0014.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0016.jpg">
-            <img src="images/Scan0016.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-        <div class="img">
-            <a target="_blank" href="images/Scan0015.jpg">
-                <img src="images/Scan0015.jpg" alt="Forest" width="400" height="300">
-            </a>
-        </div>
-
-
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0006.jpg">
-            <img src="images/Scan0006.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0007.jpg">
-            <img src="images/Scan0007.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0008.jpg">
-            <img src="images/Scan0008.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0009.jpg">
-            <img src="images/Scan0009.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0012.jpg">
-            <img src="images/Scan0012.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0011.jpg">
-            <img src="images/Scan0011.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-    <div class="img">
-        <a target="_blank" href="images/Scan0010.jpg">
-            <img src="images/Scan0010.jpg" alt="Forest" width="400" height="300">
-        </a>
-    </div>
-
-
-
-
-
-
-
-
+    <img src="images/Scan0001.jpg" alt="butterfly with flower" width="400" height="300">
+    <img src="images/Scan0003.jpg" alt="Natural scenary with Lights" width="400" height="300">
+    <img src="images/Scan0004.jpg" alt="Mountains" width="400" height="300">
+    <img src="images/Scan0005.jpg" alt="Mountains" width="400" height="300">
+    <img src="images/Scan0013.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0014.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0016.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0015.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0017.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0006.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0007.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0008.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0009.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0012.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0011.jpg" alt="Forest" width="400" height="300">
+    <img src="images/Scan0010.jpg" alt="Forest" width="400" height="300">
 </div>
 </body>
 </html>
